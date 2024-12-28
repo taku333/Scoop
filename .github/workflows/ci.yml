@@ -14,7 +14,7 @@ jobs:
         with:
           fetch-depth: 2
       - name: Init Test Suite
-        uses: potatoqualitee/psmodulecache@v6.0
+        uses: potatoqualitee/psmodulecache@v6.2
         with:
           modules-to-cache: BuildHelpers
           shell: powershell
@@ -30,7 +30,7 @@ jobs:
         with:
           fetch-depth: 2
       - name: Init Test Suite
-        uses: potatoqualitee/psmodulecache@v6.0
+        uses: potatoqualitee/psmodulecache@v6.2
         with:
           modules-to-cache: BuildHelpers
           shell: pwsh
